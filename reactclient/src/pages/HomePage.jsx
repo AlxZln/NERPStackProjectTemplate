@@ -121,8 +121,6 @@ export const HomePage = () => {
 					<Grid item >
 						<Button sx={{ margin: 5 }} variant="contained" onClick={addUserHandler}>Добавить</Button>
 					</Grid>
-								
-											<button>Кнопка</button>
 				</Grid>
 
 			</Grid>

@@ -10,7 +10,7 @@ app.use(express.json({ extended: true }))
 
 app.use('/api/excel', require('./routes/excel.routes'))
 app.use('/api/user', require('./routes/user.routes'))
-
+app.use('/api/data', require('./routes/data.routes'))
 const PORT = 5000
 
 async function start() {

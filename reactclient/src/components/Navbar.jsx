@@ -42,6 +42,12 @@ export const Navbar = () => {
         <Button component={NavLink} to="/excel" sx={{ color: '#fff' }}>
           excel
         </Button>
+        <Button component={NavLink} to="/tables" sx={{ color: '#fff' }}>
+          Таблицы
+        </Button>
+        <Button component={NavLink} to="/other" sx={{ color: '#fff' }}>
+          Другое
+        </Button>
       </Toolbar>
     </AppBar>
   )
