@@ -46,13 +46,16 @@ export const ExcelPage = () => {
 
   return (
     <div>
+      <Button component="label">
+        Выбрать файл
+        <input 
+        hidden
+          name="file"
+          type="file"
+          onChange={onChangeFile}
+        />
+      </Button>
 
-      <input
-
-        name="file"
-        type="file"
-        onChange={onChangeFile}
-      />
       <Button onClick={() => uploadSingleFile(file)}>
         Загрузить
       </Button>

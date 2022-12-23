@@ -39,9 +39,6 @@ export const Navbar = () => {
         >
           ХАМ
         </Typography>
-        <Button component={NavLink} to="/excel" sx={{ color: '#fff' }}>
-          excel
-        </Button>
       </Toolbar>
     </AppBar>
   )
