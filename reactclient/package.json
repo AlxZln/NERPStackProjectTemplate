@@ -17,8 +17,13 @@
     "@mui/lab": "^5.0.0-alpha.113",
     "@mui/material": "^5.10.16",
     "@mui/x-data-grid": "^5.17.16",
+    "@mui/x-date-pickers": "^5.0.12",
+    "@tanstack/react-table": "^8.7.4",
+    "moment": "^2.29.4",
     "mui-datatables": "^4.2.2",
     "react": "^18.2.0",
+    "react-dnd": "^16.0.1",
+    "react-dnd-html5-backend": "^16.0.1",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.4.4"
   },
